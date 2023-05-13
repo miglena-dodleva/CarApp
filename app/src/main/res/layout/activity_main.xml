@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/carlogo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/editName"
+        android:hint="Name"
+        android:inputType="textPersonName"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editRegistrationNumber"
+        android:textColor="#000000"
+        android:hint="Registration Number"
+        android:inputType="phone"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/editBrandAndModel"
+        android:hint="Brand And Model"
+        android:inputType="text"></EditText>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add car"></Button>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:background="#FFFFFF"
+        android:minHeight="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/car" />
+
+    <Button
+        android:id="@+id/carInformation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Fun Information" />
+
+
+
+</LinearLayout>

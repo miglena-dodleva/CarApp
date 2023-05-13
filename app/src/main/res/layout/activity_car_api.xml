@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CarApiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F3F3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/carlogo" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:background="#FFFDFD"
+            android:inputType="textPersonName"
+            android:scaleType="center"
+            android:text="Fun Fact"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#0472D1"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:scaleType="center"
+            android:text="@color/black"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/catcar4" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
